@@ -11,7 +11,7 @@ This is an extremely large vision but with the team, their connection, and fundi
 ## Core Capabilities
 
 * Universal Computer Access: ✓ (Uses Firefox + system tools currently)
-* Natural Interaction: ✓ (Uses O3-mini high for vision + DeepSeek R1-Zero for LLM)
+* Natural Interaction: ✓ (Claude for Vision so far)
 * Memory & Context: ✓ (Uses pgvector + Neon for RAG)
 * Function Composition: ✓ (Via Python SDK and task system)
 
