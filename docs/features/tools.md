@@ -41,25 +41,6 @@ Aesoperator comes with a suite of built-in tools for interacting with computers 
 * Testing automation
 * Environment setup
 
-### Research Tools
 
-* Multi-source information gathering
-* Content summarization
-* Knowledge graph building
-* Citation management
 
-### Vision Tools
-
-* GUI element detection
-* Image analysis
-* OCR (text extraction)
-* Visual verification
-
-### Memory Tools
-
-* Context storage/retrieval
-* Knowledge persistence
-* Semantic search
-* State management
-
-**Note it cannot fill out CAPTCHAs reliably yet.**
+**Note it cannot fill out CAPTCHAs reliably yet, a workaround with Cloudflare Workers with Browsers is in development as of v0.1.1**
