@@ -6,7 +6,7 @@ OpenAI Operator showed us last week that Computer Usage Agents are the next moda
 
 Just like Devin showed us that AI can be a fully capable software engineer and Cursor brought AI directly into your IDE, Aesoperator is bringing general computer usage capabilities to AI. Starting as a browser-based tool accessible through Telegram and Discord, we're transitioning to a full desktop application that lets AI agents control your entire computer through screenshots and natural language - imagine Devin's capabilities but for any computer task, not just coding. By acquiring and integrating with existing projects, we're building an open-source ecosystem that will let any AI system interact with computers naturally, just like a human would.
 
-This is an extremely large vision but with the team, their connection, and funding from AESOP we can make this happen
+This is an extremely large vision but with the team and funding from AESOP we can make this happen
 
 ## Core Capabilities
 
