@@ -4,31 +4,25 @@ Aesoperator is a platform for AI agents to interact with computers.
 
 OpenAI Operator showed us last week that Computer Usage Agents are the next modality. We are building the open source version of this.
 
-
-
 Just like Devin showed us that AI can be a fully capable software engineer and Cursor brought AI directly into your IDE, Aesoperator is bringing general computer usage capabilities to AI. Starting as a browser-based tool accessible through Telegram and Discord, we're transitioning to a full desktop application that lets AI agents control your entire computer through screenshots and natural language - imagine Devin's capabilities but for any computer task, not just coding. By acquiring and integrating with existing projects, we're building an open-source ecosystem that will let any AI system interact with computers naturally, just like a human would.
-
-
 
 This is an extremely large vision but with the team, their connection, and funding from AESOP we can make this happen
 
-
-
-[**Core Capabilities:**](#user-content-fn-1)[^1]
+## Core Capabilities
 
 * Universal Computer Access: ✓ (Uses Firefox + system tools currently)
 * Natural Interaction: ✓ (Uses O3-mini high for vision + DeepSeek R1-Zero for LLM)
 * Memory & Context: ✓ (Uses pgvector + Neon for RAG)
 * Function Composition: ✓ (Via Python SDK and task system)
 
-**Key Differentiators for now:**
+## Key differentiators for now
 
 * Screenshot-First: ✓ (Core vision-based interaction model via Claude)
 * Contextual Understanding: ✓ (Through RAG + persistent memory via pgvector)
 * Serverless Architecture: ✓ (Though transitioning to local desktop app in Q2)
 * Open Protocol: ✓ (MCP implementation for tool/agent communication)
 
-**Technical Foundation:**
+## Technical core
 
 * Vision models: ✓ (Claude)
 * LLMs:  (Claude, but DeepSeek R1-Zero in the future)
@@ -36,7 +30,7 @@ This is an extremely large vision but with the team, their connection, and fundi
 * Serverless:  (In progress)
 * Browser/System: ✓ (Firefox + Ubuntu 22.04 tools)
 
-The only nuance is that some features (like full system access) will be more robust in the desktop version coming in Q2 2024.
+The only nuance is that some features (like full system access) will be more robust in the desktop version coming in Q2 2025.
 
 ## Target Use Cases
 
@@ -71,5 +65,3 @@ The only nuance is that some features (like full system access) will be more rob
    * Custom operator development
    * Enterprise integration
    * Advanced monitoring and analytics
-
-[^1]: 
