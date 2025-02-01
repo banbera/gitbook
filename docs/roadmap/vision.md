@@ -1,25 +1,30 @@
 # Vision
 
-Aesoperator is a platform for AI agents to interact with computers.
+Aesoperator is an open-source platform that lets AI agents fully operate computers, not just code, but perform any task a human user can. It leverages vision models (like Claude) to see interfaces through screenshots, persistent memory (via pgvector + Neon) to track context, and function calling for complex tasks. Currently browser-based with Firefox on Ubuntu 22.04, it will expand to a full desktop app by Q2 2025, enabling deeper system-level control.
 
-OpenAI Operator showed us last week that Computer Usage Agents are the next modality. We are building the open source version of this.
+• AI sees your interface, clicks buttons, fills forms, and navigates as if it were a human.\
+• Persistent memory keeps track of tasks, data, and context across sessions.\
+• It can call functions (serverless or local) to chain together powerful workflows.\
+• Future expansions: more robust offline/desktop control, deeper integration with advanced LLMs, and advanced serverless deployments.
 
-Just like Devin showed us that AI can be a fully capable software engineer and Cursor brought AI directly into your IDE, Aesoperator is bringing general computer usage capabilities to AI. Starting as a browser-based tool accessible through Telegram and Discord, we're transitioning to a full desktop application that lets AI agents control your entire computer through screenshots and natural language - imagine Devin's capabilities but for any computer task, not just coding. By acquiring and integrating with existing projects, we're building an open-source ecosystem that will let any AI system interact with computers naturally, just like a human would.
-
-This is an extremely large vision but with the team and funding from AESOP we can make this happen
+The goal is to create a universal “computer usage” layer so any language model can interact with any OS or application. This will include being able to operate your wallets, trade, setup notifications, everything you manually have to do and would take up tedious setups to get all right in tandem
 
 ## Core Capabilities
 
 * Universal Computer Access: ✓ (Uses Firefox + system tools currently)
 * Natural Interaction: ✓ (Claude for Vision so far)
-* Memory & Context: ✓ (Uses pgvector + Neon for RAG)
-* Function Composition: ✓ (Via Python SDK and task system)
+* Memory & Context: (In beta development, Uses pgvector + Neon for RAG)
+* Function Composition: (In progress Via Python SDK and task system)
 
-## Key differentiators for now
+## Key differentiators
 
-* Screenshot-First: ✓ (Core vision-based interaction model via Claude)
+* We are a platform-layer application that is built upon existing LLMs like Claude, Deepseek, and other language models that are:&#x20;
+  * Multimodal
+  * Function calling capabilities
+* Same class of platform-layer as Devin(a computer use agent), OpenAI Operator, and Claude's hosted version of Computer Use
+* Vision-First: ✓ (Core vision-based interaction model via Claude)
 * Contextual Understanding: ✓ (Through RAG + persistent memory via pgvector)
-* Serverless Architecture: ✓ (Though transitioning to local desktop app in Q2)
+* Serverless Architecture:  (Though transitioning to local desktop app in Q2)
 * Open Protocol: ✓ (MCP implementation for tool/agent communication)
 
 ## Technical core
