@@ -15,7 +15,6 @@
 * [Function Calling](developer-docs/function-calling.md)
 * [Available Actions](developer-docs/available-actions.md)
 * [Tasks](developer-docs/tasks.md)
-* [Page](developer-docs/page.md)
 * [Python SDK](developer-docs/python-sdk.md)
 
 ***
