@@ -4,29 +4,39 @@ Aesoperator is a platform for AI agents to interact with computers.
 
 OpenAI Operator showed us last week that Computer Usage Agents are the next modality. We are building the open source version of this.
 
-## We developed a Computer Usage Agent. Next, we enabled its use on Telegram and Discord. We plan to use treasury funds to acquire other projects and their distributions. This will transition the Computer Agent from a browser-based tool to a locally run application on your computer, similar to how Devin and Cursor work.
 
-## Core Capabilities
 
-* **Universal Computer Access**: AI agents that can navigate any GUI interface, web application, or system through screenshots and actions
-* **Natural Interaction**: Using computer vision and LLMs to understand and interact with interfaces naturally
-* **Memory & Context**: Maintaining persistent memory of interactions and system states
-* **Function Composition**: Building complex workflows by combining atomic operations
+Just like Devin showed us that AI can be a fully capable software engineer and Cursor brought AI directly into your IDE, Aesoperator is bringing general computer usage capabilities to AI. Starting as a browser-based tool accessible through Telegram and Discord, we're transitioning to a full desktop application that lets AI agents control your entire computer through screenshots and natural language - imagine Devin's capabilities but for any computer task, not just coding. By acquiring and integrating with existing projects, we're building an open-source ecosystem that will let any AI system interact with computers naturally, just like a human would.
 
-## Key Differentiators
 
-* **Screenshot-First**: Unlike traditional automation tools that rely on selectors or coordinates, Aesoperator "sees" interfaces through screenshots
-* **Contextual Understanding**: Maintains awareness of system state and previous actions
-* **Serverless Architecture**: Dynamically spins up operators for specific tasks without maintaining persistent infrastructure
-* **Open Protocol**: MCP (Model Context Protocol from Anthropic) enables standardized communication between AI and tools, allowing us to integrate with every existing RAG or Agentic system that supports it.
 
-## Technical Foundation
+This is an extremely large vision but with the team, their connection, and funding from AESOP we can make this happen
 
-* Vision language models for interface understanding
-* Large language models for reasoning and decision making
-* Persistent memory systems(RAG) for maintaining context
-* Serverless compute for scalable execution
-* Browser and system automation capabilities
+
+
+[**Core Capabilities:**](#user-content-fn-1)[^1]
+
+* Universal Computer Access: ✓ (Uses Firefox + system tools currently)
+* Natural Interaction: ✓ (Uses O3-mini high for vision + DeepSeek R1-Zero for LLM)
+* Memory & Context: ✓ (Uses pgvector + Neon for RAG)
+* Function Composition: ✓ (Via Python SDK and task system)
+
+**Key Differentiators for now:**
+
+* Screenshot-First: ✓ (Core vision-based interaction model via Claude)
+* Contextual Understanding: ✓ (Through RAG + persistent memory via pgvector)
+* Serverless Architecture: ✓ (Though transitioning to local desktop app in Q2)
+* Open Protocol: ✓ (MCP implementation for tool/agent communication)
+
+**Technical Foundation:**
+
+* Vision models: ✓ (Claude)
+* LLMs:  (Claude, but DeepSeek R1-Zero in the future)
+* Memory: ✓ (pgvector + Neon)
+* Serverless:  (In progress)
+* Browser/System: ✓ (Firefox + Ubuntu 22.04 tools)
+
+The only nuance is that some features (like full system access) will be more robust in the desktop version coming in Q2 2024.
 
 ## Target Use Cases
 
@@ -61,3 +71,5 @@ OpenAI Operator showed us last week that Computer Usage Agents are the next moda
    * Custom operator development
    * Enterprise integration
    * Advanced monitoring and analytics
+
+[^1]: 
