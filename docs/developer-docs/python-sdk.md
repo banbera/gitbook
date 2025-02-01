@@ -260,14 +260,3 @@ mydb.subscribe("new_records", process_new_record)
 
 This sets up a listener that triggers the `process_new_record` pipeline whenever a record is inserted into the `new_records` table. The pipeline validates the record, extracts key entities from its description field, looks up additional metadata for each entity, and updates a search index with the enriched record data.
 
-## Learn More
-
-* [Aesoperator API Reference](api-reference.md) for low-level details on the HTTP API
-* [Operator Function Catalog](function-catalog.md) for a complete list of available functions and their schemas
-* [Guides and Tutorials](guides-and-tutorials.md) for in-depth walkthroughs on building Aesoperator apps in Python
-
-The Aesoperator Python SDK makes it easy to leverage powerful AI capabilities in your applications. You can compose Operator functions to automate a wide variety of tasks, from web scraping and data processing to question answering and content generation.
-
-This guide covered the key features of the SDK, including function discovery and invocation, handling results, composing multiple functions, working with Pages and Memory, and common usage patterns.
-
-For more details on the Aesoperator API and platform, check out the rest of the [developer documentation](./). If you have any questions or feedback, join our [community forums](https://community.aesoperator.com) or [contact support](mailto:support@aesoperator.com).
