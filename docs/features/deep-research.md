@@ -1,36 +1,36 @@
 # Deep Research
 
-Aesoperator's deep research capability allows it to perform comprehensive research and analysis on a given topic by ingesting and processing information from multiple online sources.
+Aesoperator's deep research capability performs comprehensive research by combining browser automation, data extraction, and memory-powered analysis. Research tasks typically take 2-8 hours depending on depth and scope.
 
 ## How It Works
 
-At a high level, the deep research process involves:
+The research process:
 
-1. Navigating to relevant webpages and online resources based on the research topic
-2. Extracting key information from the page text, images, and other media 
-3. Storing and indexing the extracted information in memory
-4. Analyzing patterns and connections across the ingested data to generate novel insights
-5. Summarizing the key findings in a digestible format
+1. Takes a research topic/question and constraints as input
+2. Uses Firefox to navigate and scrape relevant sources
+3. Extracts and processes information using vision and language models
+4. Builds a knowledge graph in pgvector for semantic search
+5. Generates insights using LLM analysis
 
-Under the hood, this is powered by:
-- The MCP (Multi-Channel Processing) protocol to efficiently ingest and process data from multiple online sources in parallel
-- A suite of computer vision and language understanding models to extract structured information from unstructured web data
-- A knowledge graph stored in memory to identify relationships between entities and concepts 
-- Large language models to analyze the aggregated knowledge and generate human-readable insights and summaries
+For example, researching "Latest advances in fusion energy":
 
-## Using the Research Capability
+1. Crawls scientific papers, news articles, and research lab websites
+   - Uses Firefox with Selenium for web navigation
+   - Accesses arXiv, Google Scholar, ScienceDirect via APIs
+   - Downloads PDFs and HTML content for processing
 
-To perform research using Aesoperator:
-1. Provide a research topic or question 
-2. Specify any constraints or guidelines for the research process
-3. Submit the request to the Aesoperator API
-4. Aesoperator will automatically navigate the web to gather relevant information 
-5. Once the research is complete, it will return a summarized report of its findings
+2. Extracts key findings about recent breakthroughs and technical progress
+   - Uses GPT-4 Vision to analyze diagrams and figures
+   - Applies Tesseract OCR for text in images
+   - Leverages scientific paper parsing libraries like GROBID
 
-## Additional Resources
-- [Python SDK](../developer-docs/python-sdk.md) documentation 
-- [Core Concepts](../developer-docs/core-concepts.md) overview
-- [Aesoperator website](https://aesoperator.com/) 
+3. Builds knowledge graph connecting research teams, technologies, and results
+   - Stores in PostgreSQL with pgvector extension
+   - Uses Neo4j for graph relationships
+   - Employs sentence transformers for semantic embeddings
 
-Note: The exact details of Aesoperator's deep research implementation are not provided in the current docs. This overview is based on inferences from the high-level descriptions and should be considered speculative. Please refer to the official Aesoperator resources for the most up-to-date and accurate information.
-
+4. Generates comprehensive report with:
+   - Timeline of major developments
+   - Technical analysis of competing approaches
+   - Assessment of commercial viability
+   - Future research directions
