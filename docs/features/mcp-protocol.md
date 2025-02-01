@@ -1,6 +1,6 @@
 # Model Context Protocol
 
-The Model Context Protocol (MCP) is an open standard that enables secure, two-way connections between AI agents and data sources. Aesoperator implements MCP to give its operators direct access to your systems and data while maintaining security and control.
+Anthropic proposed a novel standard for AI agents to access data sources called the Model Context Protocol (MCP) You can read more about it [from Anthropic's blog here](https://docs.anthropic.com/en/docs/model-context-protocol). Aesoperator implements MCP to give its operators direct access to your systems and data while maintaining security and control.
 
 ## How MCP Works in Aesoperator
 
