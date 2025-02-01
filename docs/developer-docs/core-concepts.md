@@ -1,14 +1,22 @@
+---
+description: >-
+  Note as of 0.1.1 Aesoperator SDK is still experimental and in development,
+  these are functions that are still experimental
+---
+
 # Core Concepts
 
 Aesoperator is an AI agent that can use computers just like a human would - interacting with applications, processing data, and completing complex tasks across your entire system. Here are the key concepts:
 
 ## Task
+
 A Task represents any computer-based job you want Aesoperator to complete. This could be:
-- Analyzing data across multiple applications
-- Automating multi-step workflows 
-- Monitoring systems and responding to events
-- Processing and organizing files
-- Interacting with web applications
+
+* Analyzing data across multiple applications
+* Automating multi-step workflows
+* Monitoring systems and responding to events
+* Processing and organizing files
+* Interacting with web applications
 
 Note: The default configuration runs on Ubuntu 22.04, so Windows-only applications and features will not be available. Make sure your tasks are compatible with Linux environments.
 
@@ -28,13 +36,14 @@ task = aesop.Task(
 ```
 
 ## System Access
+
 Aesoperator can interact with its own Ubuntu 22.04 environment:
 
-- **Applications**: Firefox, command line tools
-- **Files**: Read, write, organize files and directories
-- **System**: Monitor resources, run commands, manage processes
-- **Network**: Make API calls, handle web requests, manage connections via the terminal
-- **Data**: Process various file formats, query databases, transform data with LibreOffice
+* **Applications**: Firefox, command line tools
+* **Files**: Read, write, organize files and directories
+* **System**: Monitor resources, run commands, manage processes
+* **Network**: Make API calls, handle web requests, manage connections via the terminal
+* **Data**: Process various file formats, query databases, transform data with LibreOffice
 
 Example of system-wide access:
 
@@ -51,6 +60,7 @@ aesop.system.send_notification("Q4 report ready for review")
 ```
 
 ## Memory & Context
+
 Aesoperator maintains context across your entire system:
 
 ### In the backend, Aesoperator maintains a persistent key-value store for its context:
@@ -78,9 +88,11 @@ aesop.memory.set("analysis_state", {
 ```
 
 ## Actions
+
 Actions represent discrete operations Aesoperator can perform:
 
 ### System Actions
+
 ```python
 # File operations
 aesop.system.copy_file(source, destination)
@@ -98,6 +110,7 @@ aesop.system.download_file(url)
 ```
 
 ### Application Actions
+
 ```python
 # Native app control
 app = aesop.open_application(name)
@@ -112,6 +125,7 @@ browser.fill_form(data)
 ```
 
 ### Data Actions
+
 ```python
 # Data processing
 data = aesop.read_file("data.csv")
@@ -124,6 +138,7 @@ results = db.query("SELECT * FROM sales")
 ```
 
 ## Function Composition
+
 Chain actions together for complex workflows:
 
 **Note: This workflow is still really hard to get right as mistakes Aesoperator makes become exponentially more difficult to fix in-context and is a research problem.**
@@ -191,3 +206,4 @@ def organize_research_papers(topic, max_papers=5):
 
 # Use the composed workflow
 result = organize_research_papers("quantum computing", max_papers=3)
+```

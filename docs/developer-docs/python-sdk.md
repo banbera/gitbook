@@ -1,3 +1,7 @@
+---
+description: Note as of 0.1.1 Aesoperator SDK is still experimental and in development
+---
+
 # Python SDK
 
 The Aesoperator Python SDK provides a convenient way to discover, invoke, and compose [Operator functions](function-calling.md) from your Python code.
