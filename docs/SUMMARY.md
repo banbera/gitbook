@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Aesoperator Docs](README.md)
+* [Official Links](official-links.md)
 
 ## Features
 
@@ -16,10 +17,6 @@
 * [Available Actions](developer-docs/available-actions.md)
 * [Tasks](developer-docs/tasks.md)
 * [Python SDK](developer-docs/python-sdk.md)
-
-***
-
-* [Official Links](official-links.md)
 
 ## Roadmap
 
