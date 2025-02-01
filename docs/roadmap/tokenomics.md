@@ -3,9 +3,9 @@
 ## Token Overview
 
 * Total supply: 1,000,000,000 (1 billion) AESOP tokens
-* Majority of supply (89.87%) locked in LP until February 28th, 2025 ([Verify on Rugcheck](https://rugcheck.xyz/tokens/CpEpquNgiGyeMeTBrJJCgMXL8vn1jCkWKVbSurhJpump))
-* 0.7% team allocation via Streamflow until February 28th, 2025
-* Team (of 2) holds minimal tokens which ensured fair launch
+* Majority of supply (89.87%) locked in LP ([Verify on Rugcheck](https://rugcheck.xyz/tokens/CpEpquNgiGyeMeTBrJJCgMXL8vn1jCkWKVbSurhJpump))
+* 0.7% team allocation locked until February 28th, 2025([Verify on Streamflow](https://app.streamflow.finance/contract/solana/mainnet/HCym2tDaV1eZFkfpBns6RABKufVcbmXxFApg9jPkiweY))
+* Team (of 2 currrently) holds minimal tokens which ensured fair launch
 
 ## Access Passes
 
