@@ -8,7 +8,6 @@
 * [Deep research](features/deep-research.md)
 * [Tools](features/tools.md)
 * [Memory](features/memory.md)
-* [Sampling](features/sampling.md)
 
 ## Developer Docs
 
