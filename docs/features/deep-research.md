@@ -1,4 +1,4 @@
-# Deep Research
+# Deep research
 
 Aesoperator's deep research capability performs comprehensive research by combining browser automation, data extraction, and memory-powered analysis. Research tasks typically take 2-8 hours depending on depth and scope.
 
@@ -15,22 +15,20 @@ The research process:
 For example, researching "Latest advances in fusion energy":
 
 1. Crawls scientific papers, news articles, and research lab websites
-   - Uses Firefox with Selenium for web navigation
-   - Accesses arXiv, Google Scholar, ScienceDirect via APIs
-   - Downloads PDFs and HTML content for processing
-
+   * Uses Firefox with Selenium for web navigation
+   * Accesses arXiv, Google Scholar, ScienceDirect via APIs
+   * Downloads PDFs and HTML content for processing
 2. Extracts key findings about recent breakthroughs and technical progress
-   - Uses GPT-4 Vision to analyze diagrams and figures
-   - Applies Tesseract OCR for text in images
-   - Leverages scientific paper parsing libraries like GROBID
-
+   * Uses newsonnet Vision to analyze diagrams and figures
+   * Uses newsonnet Vision to do any computer vision tasks
 3. Builds knowledge graph connecting research teams, technologies, and results
-   - Stores in PostgreSQL with pgvector extension
-   - Uses Neo4j for graph relationships
-   - Employs sentence transformers for semantic embeddings
-
+   * Stores in PostgreSQL with pgvector extension
+   * Uses Neo4j for graph relationships
+   * Employs sentence transformers for semantic embeddings
 4. Generates comprehensive report with:
-   - Timeline of major developments
-   - Technical analysis of competing approaches
-   - Assessment of commercial viability
-   - Future research directions
+   * Timeline of major developments
+   * Technical analysis of competing approaches
+   * Assessment of commercial viability
+   * Future research directions
+
+Similar to Devin's Notepad, Aesoperator is prompted to open Notes in Ubuntu to write a plan before completing them one by one such that if it fails at some portion of the workflow, it can self heal automatically
