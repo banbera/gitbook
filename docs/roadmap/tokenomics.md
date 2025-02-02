@@ -1,6 +1,6 @@
 # Tokenomics
 
-## ACT 1: $AESOP
+## ACT I: $AESOP
 
 * Total supply: 1,000,000,000 (1 billion) AESOP tokens
 * 89.87% burned and locked in LP ([Verify on Rugcheck](https://rugcheck.xyz/tokens/CpEpquNgiGyeMeTBrJJCgMXL8vn1jCkWKVbSurhJpump))
