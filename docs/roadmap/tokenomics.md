@@ -9,9 +9,7 @@
 
 ## Access Passes
 
-### Primary Funding Mechanism
-
-Access passes are our main way of raising funds to develop and operate Aesoperator:
+Access passes are our main way of raising funds to develop and operate Aesoperator ACT 1:
 
 * Maximum supply: 10,000 passes
 * Duration: 6 months access, converting to pay-per-hour after
@@ -20,26 +18,22 @@ Access passes are our main way of raising funds to develop and operate Aesoperat
 ### Treasury & Operations
 
 * Treasury wallet: GvBQMHcP2BmtQjR5pHr5Vij4qV1tvpEy47HGmUhbN1ea
-* Monthly operational costs: ~~50 SOL (~~$12,000)
+* Monthly operational costs
   * H100 GPUs
   * OpenRouter API access
   * Infrastructure and hosting
 * Token allocation secured via [Streamflow contract](https://app.streamflow.finance/contract/solana/mainnet/HCym2tDaV1eZFkfpBns6RABKufVcbmXxFApg9jPkiweY)
 
-## Future Utility
+## Utility
 
-### Q1 2025: Pay-per-hour Model
+Pay-per-hour Model
 
 * 10,000 AESOP per hour as compute costs scale with more complex reasoning
-
-### Q2 2025: Rate Limit Tiers
-
-* Basic: 100 requests/day
-* Standard: 1,000 requests/day
+* ACT 2
 
 ## Fund Usage
 
-* Aquisitions of projects and teams
+* Acquisitions of projects and teams
 * Infrastructure costs (GPUs, APIs, hosting)
 * Development team
 * Bug bounties
@@ -47,4 +41,4 @@ Access passes are our main way of raising funds to develop and operate Aesoperat
 * Platform improvements
 * Community incentives
 
-Note: We haven't raised funds through token sales. All funding comes through access pass sales to support aquiring other projects and teams and development costs. We see aquisitions as a way to buy distribution to the Aesoperator project.
+Note: We haven't raised funds through $AESOP. All funding comes through access pass sales to support aquiring other projects and teams and development costs. We see aquisitions as a way to buy distribution to the Aesoperator project.

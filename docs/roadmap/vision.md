@@ -1,6 +1,6 @@
 # Vision
 
-Aesoperator is an open-source platform that lets AI agents fully operate computers, not just code, but perform any task a human user can. It leverages vision models (like Claude) to see interfaces through screenshots, persistent memory (via pgvector + Neon) to track context, and function calling for complex tasks. Currently browser-based with Firefox on Ubuntu 22.04, it will expand to a full desktop app by Q2 2025, enabling deeper system-level control.
+ACT 1: Aesoperator is an open-source platform that lets AI agents fully operate computers, not just code, but perform any task a human user can. It leverages vision models (like Claude) to see interfaces through screenshots, persistent memory (via pgvector + Neon) to track context, and function calling for complex tasks. Currently browser-based with Firefox on Ubuntu 22.04, it will expand to a full desktop app by Q2 2025, enabling deeper system-level control.
 
 • AI sees your interface, clicks buttons, fills forms, and navigates as if it were a human.\
 • Persistent memory keeps track of tasks, data, and context across sessions.\

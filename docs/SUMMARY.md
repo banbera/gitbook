@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Aesoperator Docs](README.md)
+* [Aesop Docs](README.md)
 * [Official Links](official-links.md)
 
 ## Features
