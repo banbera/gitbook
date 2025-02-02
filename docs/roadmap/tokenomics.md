@@ -1,9 +1,9 @@
 # Tokenomics
 
-## Token Overview
+## ACT 1: $AESOP
 
 * Total supply: 1,000,000,000 (1 billion) AESOP tokens
-* Majority of supply (89.87%) locked in LP ([Verify on Rugcheck](https://rugcheck.xyz/tokens/CpEpquNgiGyeMeTBrJJCgMXL8vn1jCkWKVbSurhJpump))
+* 89.87% burned and locked in LP ([Verify on Rugcheck](https://rugcheck.xyz/tokens/CpEpquNgiGyeMeTBrJJCgMXL8vn1jCkWKVbSurhJpump))
 * 0.7% team allocation locked until February 28th, 2025([Verify on Streamflow](https://app.streamflow.finance/contract/solana/mainnet/HCym2tDaV1eZFkfpBns6RABKufVcbmXxFApg9jPkiweY))
 * Team (of 2 currrently) holds minimal tokens which ensured fair launch
 
@@ -11,9 +11,9 @@
 
 Access passes are our main way of raising funds to develop and operate Aesoperator ACT 1:
 
-* Maximum supply: 10,000 passes
+* Maximum supply: 5555
 * Duration: 6 months access, converting to pay-per-hour after
-* Price: 1 SOL per pass
+* Price: .55 SOL per pass
 
 ### Treasury & Operations
 
