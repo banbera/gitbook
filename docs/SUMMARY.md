@@ -3,6 +3,11 @@
 * [Aesop Docs](README.md)
 * [Official Links](official-links.md)
 
+## Roadmap
+
+* [Tokenomics](roadmap/tokenomics.md)
+* [Vision](roadmap/vision.md)
+
 ## Features
 
 * [MCP Protocol](features/mcp-protocol.md)
@@ -17,8 +22,3 @@
 * [Available Actions](developer-docs/available-actions.md)
 * [Tasks](developer-docs/tasks.md)
 * [Python SDK](developer-docs/python-sdk.md)
-
-## Roadmap
-
-* [Tokenomics](roadmap/tokenomics.md)
-* [Vision](roadmap/vision.md)
