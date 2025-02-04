@@ -13,7 +13,7 @@ Access passes are our main way of raising funds to develop and operate Aesoperat
 
 * Maximum supply: 5555
 * Duration: 6 months access, converting to pay-per-hour after
-* Price: .55 SOL per pass
+* Price: 2.22 SOL per pass
 
 ### Treasury & Operations
 
